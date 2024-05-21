@@ -12,9 +12,85 @@
         <!-- Bootstrap CSS v5.2.1 -->
         <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.css">
         <link rel="stylesheet" href="./bootstrap-4.5.3-dist/css/bootstrap.css">
+        <link rel="stylesheet" href="./style.css">
     </head>
 
     <body>
+        <div class="container mt-5">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente soluta nobis provident nisi laboriosam perferendis, cum architecto temporibus quos magnam praesentium quae id ut error beatae sequi doloremque, dicta placeat.</p>
+        </div>
+        <div class="container-fluid my-2">
+            <h3>Auto layout column widths</h3>
+            <div class="row">
+                <div class="col"><div class="custom-box"> <p>box1</p></div></div>
+                <div class="col"><div class="custom-box"> <p>box2</p></div></div>
+                <div class="col"><div class="custom-box"> <p>box3</p></div></div>
+                <div class="col"><div class="custom-box"> <p>box4</p></div></div>
+            </div>
+        </div>
+
+        <div class="container-fluid my-2">
+            <h3>Auto layout column widths</h3>
+            <div class="row">
+                <div class="col-2"><div class="custom-box"> <p>box1</p></div></div>
+                <div class="col"><div class="custom-box"> <p>box2</p></div></div>
+            </div>
+        </div>
+
+        <div class="container-fluid my-2">
+            <h3>Auto layout column with no Garters</h3>
+            <div class="row no-gutters">
+                <div class="col"><div class="custom-box"> <p>box1</p></div></div>
+                <div class="col"><div class="custom-box"> <p>box2</p></div></div>
+                <div class="col"><div class="custom-box"> <p>box3</p></div></div>
+                <div class="col"><div class="custom-box"> <p>box4</p></div></div>
+            </div>
+
+        <div class="container-fluid my-2">
+                <h3>Auto layout column with Screen Breakpoints</h3>
+                <div class="row">
+                    <div class="col-md-6 col me-sm-12"><div class="custom-box"> <p>box1</p></div></div>
+                    <div class="col-md-6 col me-sm-12"><div class="custom-box"> <p>box2</p></div></div>
+                </div>
+            </div>
+            
+            <div class="container margin-4">
+                <h3>
+                    <p class="text-primary">Primary Text Color</p>
+                    <p class="text-secondary">Secondary Text Color</p>
+                    <p class="text-success">Success Text Color</p>
+                    <p class="text-danger">Danger Text Color</p>
+                    <p class="text-warning">Warning Text Color</p>
+                    <p class="text-info">Info Text Color</p>
+                    <p class="text-light">Light Text Color</p>
+                    <p class="text-dark">Dark Text Color</p>
+                </h3>
+            </div>
+
+            <div class="container my-4">
+                <h3>Background Color</h3>
+                <div class="bg-primary">Primary Bg Color</div>
+                <div class="bg-success">Primary Bg Color</div>
+                <div class="bg-secondary">Primary Bg Color</div>
+                <div class="bg-danger">Primary Bg Color</div>
+                <div class="bg-warning">Primary Bg Color</div>
+                <div class="bg-info">Primary Bg Color</div>
+                <div class="bg-light">Primary Bg Color</div>
+                <div class="bg-dark">Primary Bg Color</div>
+            </div>
+
+            <div class="container my-4">
+                <h3>Border Colors</h3>
+                <div class="border border-success">Border Colors</div>
+                <div class="border border-primary">Border Colors</div>
+                <div class="border border-secondary">Border Colors</div>
+                <div class="border border-danger">Border Colors</div>
+                <div class="border border-warning">Border Colors</div>
+                <div class="border border-info">Border Colors</div>
+                <div class="border border-light">Border Colors</div>
+                <div class="border border-dark">Border Colors</div>
+            </div>
+
         <nav
             class="navbar navbar-expand-sm navbar-light bg-light"
         >
